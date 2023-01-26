@@ -3,6 +3,12 @@
   "name": "Page Load Complete Extension",
   "description": "This extension logs a message to the console when a page has finished loading.",
   "version": "1.0",
+  "icons": {
+    "16": "icon128.png",
+    "32": "icon128.png",
+    "48": "icon128.png",
+    "128": "icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
