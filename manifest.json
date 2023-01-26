@@ -16,5 +16,8 @@
       "run_at": "document_end"
     }
   ],
+  "background": {
+    "service_worker": "event_page.js"
+  },
   "permissions": ["activeTab"]
 }
